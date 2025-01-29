@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PipUzTrade</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: white;
+        }
+
+        .header {
+            text-align: center;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            color: #FFD700;
+            margin-bottom: 1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .service-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .social-links {
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        .social-button {
+            display: inline-flex;
+            align-items: center;
+            margin: 1rem;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .telegram {
+            background: #0088cc;
+            color: white;
+        }
+
+        .instagram {
+            background: #E1306C;
+            color: white;
+        }
+
+        .social-button i {
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.7);
+            margin-top: 4rem;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">PipUzTrade</div>
+        <p>Ваш надежный партнер в мире трейдинга</p>
+    </header>
+
+    <div class="container">
+        <div class="services">
+            <div class="service-card">
+                <h3>Форекс Трейдинг</h3>
+                <p>Профессиональные торговые стратегии на валютном рынке</p>
+            </div>
+            <div class="service-card">
+                <h3>Криптовалюты</h3>
+                <p>Торговля и инвестиции в цифровые активы</p>
+            </div>
+            <div class="service-card">
+                <h3>Обучение</h3>
+                <p>Эксклюзивные обучающие материалы и вебинары</p>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <a href="ВАШ_TELEGRAM_ССЫЛКА" class="social-button telegram" target="_blank">
+                <i class="fab fa-telegram"></i> Наш Telegram
+            </a>
+            
+            <a href="ВАШ_INSTAGRAM_ССЫЛКА" class="social-button instagram" target="_blank">
+                <i class="fab fa-instagram"></i> Наш Instagram
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 PipUzTrade. Все права защищены</p>
+    </footer>
+</body>
+</html>
